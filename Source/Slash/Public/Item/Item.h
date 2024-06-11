@@ -33,4 +33,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float m_time_constant{ 5.f };
+
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* m_item_mesh;
 };
